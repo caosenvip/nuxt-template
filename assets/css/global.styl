@@ -1,0 +1,30 @@
+// common color
+$main-color = #0079fe
+$hover-color = #0D60EC
+$text-color = #333
+$block-color = #108aed
+$border-color = #dfe8f0
+$button-color = #02cba3
+$button-hover-color = rgba(2, 203, 163, 0.5)
+$focus-background-color = #fafcff
+$error-color = #fc6621
+$table-border-color = #d5e2f9
+// common style
+baseBanner($height = 400px)
+  position relative
+  width 100%
+  height $height
+  background-position center
+  background-size cover
+  background-repeat no-repeat
+foldRow(row)
+  display -webkit-box
+  white-space normal
+  -webkit-box-orient vertical
+  -webkit-line-clamp row
+  overflow hidden
+// 隐藏
+fold()
+  text-overflow ellipsis
+  white-space nowrap
+  overflow hidden
